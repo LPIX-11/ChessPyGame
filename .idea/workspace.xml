@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dee8ecd-bd24-4f89-b5f7-ad014fd790b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/board/chessBoard.py" beforeDir="false" afterPath="$PROJECT_DIR$/board/chessBoard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/board/move.py" beforeDir="false" afterPath="$PROJECT_DIR$/board/move.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/board/tile.py" beforeDir="false" afterPath="$PROJECT_DIR$/board/tile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pieces/rook.py" beforeDir="false" afterPath="$PROJECT_DIR$/pieces/rook.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/playChess.py" beforeDir="false" afterPath="$PROJECT_DIR$/playChess.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/playChess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="74" column="65" selection-start-line="74" selection-start-column="64" selection-end-line="74" selection-end-column="65" />
+            <state relative-caret-position="137">
+              <caret line="52" column="59" lean-forward="true" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
               <folding>
                 <element signature="e#58#71#0" expanded="true" />
               </folding>
@@ -145,6 +139,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ChessArt" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -202,12 +201,12 @@
     <frame x="-1" y="0" width="1368" height="749" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24497394" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24497394" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3296" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.328" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.328" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -325,8 +324,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/playChess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="74" column="65" selection-start-line="74" selection-start-column="64" selection-end-line="74" selection-end-column="65" />
+        <state relative-caret-position="137">
+          <caret line="52" column="59" lean-forward="true" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
           <folding>
             <element signature="e#58#71#0" expanded="true" />
           </folding>

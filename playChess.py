@@ -51,32 +51,21 @@ def draw_chess_pieces():
 
             if color % 2 == 0:
                 squares(x_pos, y_pos, width, height, white)
-                if not chessBoard.gameTiles[number_of_tile].piece_on_tile.toString() == '-':
-                    img = pygame.image.load('./ChessArt/'
-                                            + chessBoard.gameTiles[number_of_tile].piece_on_tile.alliance[0]
-                                            + chessBoard.gameTiles[number_of_tile].piece_on_tile.toString().upper()
-                                            + '.png')
-
-                    # Reformat the image by 100 x 100
-                    img = pygame.transform.scale(img, (100, 100))
-
-                    all_pieces.append([img, [x_pos, y_pos], chessBoard.gameTiles[number_of_tile].piece_on_tile])
-
-                x_pos += 100
             else:
                 squares(x_pos, y_pos, width, height, black)
-                if not chessBoard.gameTiles[number_of_tile].piece_on_tile.toString() == '-':
-                    img = pygame.image.load('./ChessArt/'
-                                            + chessBoard.gameTiles[number_of_tile].piece_on_tile.alliance[0]
-                                            + chessBoard.gameTiles[number_of_tile].piece_on_tile.toString().upper()
-                                            + '.png')
 
-                    # Reformat the image by 100 x 100
-                    img = pygame.transform.scale(img, (100, 100))
+            if not chessBoard.gameTiles[number_of_tile].piece_on_tile.toString() == '-':
+                img = pygame.image.load('./ChessArt/'
+                                        + chessBoard.gameTiles[number_of_tile].piece_on_tile.alliance[0]
+                                        + chessBoard.gameTiles[number_of_tile].piece_on_tile.toString().upper()
+                                        + '.png')
 
-                    all_pieces.append([img, [x_pos, y_pos], chessBoard.gameTiles[number_of_tile].piece_on_tile])
+                # Reformat the image by 100 x 100
+                img = pygame.transform.scale(img, (100, 100))
 
-                x_pos += 100
+                all_pieces.append([img, [x_pos, y_pos], chessBoard.gameTiles[number_of_tile].piece_on_tile])
+
+            x_pos += 100
 
             color += 1
             number_of_tile += 1
