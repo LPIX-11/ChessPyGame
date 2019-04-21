@@ -75,7 +75,7 @@ class Board:
         count = 0
 
         for tiles in range(64):
-            print('|', end=self.gameTiles[tiles].piece_on_tile.toString())
+            print('|', end=self.gameTiles[tiles].piece_on_tile.to_string())
             count += 1
 
             if count == 8:

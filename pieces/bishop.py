@@ -11,7 +11,7 @@ class Bishop(Piece):
         self.alliance = alliance
         self.position = position
 
-    # Defining a toString function
-    def toString(self):
+    # Defining a to_string function
+    def to_string(self):
        return "B" if self.alliance == "Black" else "b"
 

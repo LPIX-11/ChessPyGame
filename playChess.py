@@ -26,6 +26,7 @@ chessBoard.print_board()
 all_tiles = []
 all_pieces = []
 
+
 # Drawing the chess game on screen
 ############################
 
@@ -54,10 +55,10 @@ def draw_chess_pieces():
             else:
                 squares(x_pos, y_pos, width, height, black)
 
-            if not chessBoard.gameTiles[number_of_tile].piece_on_tile.toString() == '-':
+            if not chessBoard.gameTiles[number_of_tile].piece_on_tile.to_string() == '-':
                 img = pygame.image.load('./ChessArt/'
                                         + chessBoard.gameTiles[number_of_tile].piece_on_tile.alliance[0]
-                                        + chessBoard.gameTiles[number_of_tile].piece_on_tile.toString().upper()
+                                        + chessBoard.gameTiles[number_of_tile].piece_on_tile.to_string().upper()
                                         + '.png')
 
                 # Reformat the image by 100 x 100

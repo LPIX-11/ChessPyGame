@@ -10,6 +10,6 @@ class Pawn(Piece):
         self.alliance = alliance
         self.position = position
 
-    # Defining a toString function
-    def toString(self):
+    # Defining a to_string function
+    def to_string(self):
        return "P" if self.alliance == "Black" else "p"
