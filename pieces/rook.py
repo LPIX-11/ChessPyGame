@@ -1,7 +1,7 @@
 from pieces.piece import Piece
 
-class Rook(Piece):
 
+class Rook(Piece):
     alliance = None
     position = None
 
@@ -12,4 +12,4 @@ class Rook(Piece):
 
     # Defining a toString function
     def toString(self):
-       return "R" if self.alliance == "Black" else "r"
+        return "R" if self.alliance == "Black" else "r"

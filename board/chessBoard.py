@@ -9,8 +9,8 @@ from pieces.king import King
 from pieces.queen import Queen
 from pieces.pawn import Pawn
 
-class Board:
 
+class Board:
     # Game Tiles Dictionary
     gameTiles = {}
 
@@ -18,7 +18,7 @@ class Board:
         pass
 
     # Create the board
-    def createBoard(self):
+    def create_board(self):
 
         # A chess board is constitued of 64 tiles
         for tile in range(64):
@@ -70,12 +70,12 @@ class Board:
         self.gameTiles[62] = Tile(62, Knight("White", 62))
         self.gameTiles[63] = Tile(63, Rook("White", 63))
 
-    def printBoard(self):
+    def print_board(self):
 
         count = 0
 
         for tiles in range(64):
-            print('|', end=self.gameTiles[tiles].pieceOnTile.toString())
+            print('|', end=self.gameTiles[tiles].piece_on_tile.toString())
             count += 1
 
             if count == 8:
