@@ -1,5 +1,4 @@
 class Tile:
-
     # Piece placed on tiles
     piece_on_tile = None
     tile_coordinate = None
